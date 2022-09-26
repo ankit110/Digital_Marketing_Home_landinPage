@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    color: rgba(75, 71, 71, 0.733);
+    margin-bottom: 7vh;
+}
+
+.navbar-container>div>img {
+    display: flex;
+    margin-left: 4vw;
+    flex: 2;
+}
+
+div>.list {
+    display: flex;
+    list-style-type: none;
+    width: 38vw;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 25vw;
+}
+
+.list-item {
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    font-weight: bold;
+    color: #111;
+}
+
+.button-group .nav-button {
+    padding: 2vh 2vw;
+    color: #fff;
+    background-color: #5955B3;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-container>div+div>img {
+    height: 80vh;
+    width: 60vw;
+}
+
+
+.banner-container>div {
+    margin-left: 4vw;
+}
+
+.banner-container>div>h1 {
+    font-size: 80px;
+    color: #3C2F60;
+}
+
+h1>span {
+    color: #5955B3;
+}
+
+.banner-container>div>.description {
+    text-align: left;
+    color: rgba(75, 71, 71, 0.733);
+    font-weight: 500;
+    width: 70%;
+}
+
+.btn {
+    color: #fff;
+    background-color: #5955B3;
+    padding: 2vh 2vw;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
