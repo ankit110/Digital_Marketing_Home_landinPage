@@ -5,56 +5,77 @@ body {
     padding: 0;
     outline: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
 }
 
-.navbar-container {
+
+
+.navbar-container{
     display: flex;
-    width: 100%;
-    margin-top: 2vh;
-    color: rgba(75, 71, 71, 0.733);
-    margin-bottom: 7vh;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
 }
 
-.navbar-container>div>img {
-    display: flex;
-    margin-left: 4vw;
-    flex: 2;
+.navbar-container .logo {
+    position: absolute;
+    left: 80px;
 }
 
-div>.list {
+.navbar-container .logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.navbar-container .grow-list {
     display: flex;
-    list-style-type: none;
-    width: 38vw;
+    position: absolute;
+    left: 16em;
+
+    top: -0.5em;
+    color: #8b7c7c;
+}
+
+.navbar-container ul {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-
-    margin-right: 25vw;
 }
 
-.list-item {
+.navbar-container ul>li {
+    list-style: none;
+    margin-left: 1em;
+}
+
+.navbar-container ul li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar-container .button-group {
     display: flex;
-    flex: 1;
-    cursor: pointer;
+    position: absolute;
+    right: 4em;
 }
 
-.list-item:hover {
-    font-weight: bold;
-    color: #111;
-}
-
-.button-group .nav-button {
-    padding: 2vh 2vw;
-    color: #fff;
+.navbar-container .button-group .nav-button {
     background-color: #5955B3;
+    padding: 10px 20px;
+    outline: none;
     border: none;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
 }
+
 
 .banner-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 7em;
 }
 
 .banner-container>div+div>img {
