@@ -4,7 +4,7 @@
 
 # 📌 ** Project Link 👇** 
 
-[Digital_marketing_landing_page](https://fabulous-sundae-5c2ad7.netlify.app/)
+[Digital_marketing_landing_page](https://cheerful-longma-0ae631.netlify.app/)
 
 # 📌 This Project is given in **"JavaScript Full stack Web Development Bootcamp"** by iNeuron.
 
